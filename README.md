@@ -12,3 +12,7 @@ function mystery(a) {
     else return a[0];
 }
 ```
+
+This function is a recursive function that finds the greatest character in an array and returns it. The first line in the function checks if the array has more than one character, if not it returns that character. The second line assigns to the variable, foo, what is returned by the recursively called function that has been given the original array excluding the first value. The third and fourth line compares foo and the first character in the string and returns whichever is greater.
+
+I forgot to add I used the book Javascript pocket reference 3rd edition and the help of Jacob Taylor my classmate.
